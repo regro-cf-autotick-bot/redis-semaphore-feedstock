@@ -21,7 +21,7 @@ requirements:
     - python
   run:
     - python
-    - redis
+    - redis-py  # named redis on PyPI and redis-py on conda-forge; importable as 'redis'
 
 test:
   imports:
